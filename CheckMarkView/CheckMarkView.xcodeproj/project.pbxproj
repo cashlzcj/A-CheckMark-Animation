@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC97CDB91B953DFC00015230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC97CDB81B953DFC00015230 /* main.m */; };
+		FC97CDBC1B953DFC00015230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC97CDBB1B953DFC00015230 /* AppDelegate.m */; };
+		FC97CDBF1B953DFC00015230 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC97CDBE1B953DFC00015230 /* ViewController.m */; };
+		FC97CDC21B953DFC00015230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC97CDC01B953DFC00015230 /* Main.storyboard */; };
+		FC97CDC41B953DFC00015230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC97CDC31B953DFC00015230 /* Images.xcassets */; };
+		FC97CDC71B953DFC00015230 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC97CDC51B953DFC00015230 /* LaunchScreen.xib */; };
+		FC97CDD31B953DFC00015230 /* CheckMarkViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC97CDD21B953DFC00015230 /* CheckMarkViewTests.m */; };
+		FC97CDDE1B953E2100015230 /* CheckMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC97CDDD1B953E2100015230 /* CheckMarkView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC97CDCD1B953DFC00015230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC97CDAB1B953DFC00015230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC97CDB21B953DFC00015230;
+			remoteInfo = CheckMarkView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC97CDB31B953DFC00015230 /* CheckMarkView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMarkView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC97CDB71B953DFC00015230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC97CDB81B953DFC00015230 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC97CDBA1B953DFC00015230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC97CDBB1B953DFC00015230 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC97CDBD1B953DFC00015230 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC97CDBE1B953DFC00015230 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC97CDC11B953DFC00015230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC97CDC31B953DFC00015230 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC97CDC61B953DFC00015230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC97CDCC1B953DFC00015230 /* CheckMarkViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMarkViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC97CDD11B953DFC00015230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC97CDD21B953DFC00015230 /* CheckMarkViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckMarkViewTests.m; sourceTree = "<group>"; };
+		FC97CDDC1B953E2100015230 /* CheckMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMarkView.h; sourceTree = "<group>"; };
+		FC97CDDD1B953E2100015230 /* CheckMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMarkView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC97CDB01B953DFC00015230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC97CDC91B953DFC00015230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC97CDAA1B953DFC00015230 = {
+			isa = PBXGroup;
+			children = (
+				FC97CDB51B953DFC00015230 /* CheckMarkView */,
+				FC97CDCF1B953DFC00015230 /* CheckMarkViewTests */,
+				FC97CDB41B953DFC00015230 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC97CDB41B953DFC00015230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC97CDB31B953DFC00015230 /* CheckMarkView.app */,
+				FC97CDCC1B953DFC00015230 /* CheckMarkViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC97CDB51B953DFC00015230 /* CheckMarkView */ = {
+			isa = PBXGroup;
+			children = (
+				FC97CDDC1B953E2100015230 /* CheckMarkView.h */,
+				FC97CDDD1B953E2100015230 /* CheckMarkView.m */,
+				FC97CDBA1B953DFC00015230 /* AppDelegate.h */,
+				FC97CDBB1B953DFC00015230 /* AppDelegate.m */,
+				FC97CDBD1B953DFC00015230 /* ViewController.h */,
+				FC97CDBE1B953DFC00015230 /* ViewController.m */,
+				FC97CDC01B953DFC00015230 /* Main.storyboard */,
+				FC97CDC31B953DFC00015230 /* Images.xcassets */,
+				FC97CDC51B953DFC00015230 /* LaunchScreen.xib */,
+				FC97CDB61B953DFC00015230 /* Supporting Files */,
+			);
+			path = CheckMarkView;
+			sourceTree = "<group>";
+		};
+		FC97CDB61B953DFC00015230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC97CDB71B953DFC00015230 /* Info.plist */,
+				FC97CDB81B953DFC00015230 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC97CDCF1B953DFC00015230 /* CheckMarkViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC97CDD21B953DFC00015230 /* CheckMarkViewTests.m */,
+				FC97CDD01B953DFC00015230 /* Supporting Files */,
+			);
+			path = CheckMarkViewTests;
+			sourceTree = "<group>";
+		};
+		FC97CDD01B953DFC00015230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC97CDD11B953DFC00015230 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC97CDB21B953DFC00015230 /* CheckMarkView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC97CDD61B953DFC00015230 /* Build configuration list for PBXNativeTarget "CheckMarkView" */;
+			buildPhases = (
+				FC97CDAF1B953DFC00015230 /* Sources */,
+				FC97CDB01B953DFC00015230 /* Frameworks */,
+				FC97CDB11B953DFC00015230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckMarkView;
+			productName = CheckMarkView;
+			productReference = FC97CDB31B953DFC00015230 /* CheckMarkView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC97CDCB1B953DFC00015230 /* CheckMarkViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC97CDD91B953DFC00015230 /* Build configuration list for PBXNativeTarget "CheckMarkViewTests" */;
+			buildPhases = (
+				FC97CDC81B953DFC00015230 /* Sources */,
+				FC97CDC91B953DFC00015230 /* Frameworks */,
+				FC97CDCA1B953DFC00015230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC97CDCE1B953DFC00015230 /* PBXTargetDependency */,
+			);
+			name = CheckMarkViewTests;
+			productName = CheckMarkViewTests;
+			productReference = FC97CDCC1B953DFC00015230 /* CheckMarkViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC97CDAB1B953DFC00015230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = junge;
+				TargetAttributes = {
+					FC97CDB21B953DFC00015230 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FC97CDCB1B953DFC00015230 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FC97CDB21B953DFC00015230;
+					};
+				};
+			};
+			buildConfigurationList = FC97CDAE1B953DFC00015230 /* Build configuration list for PBXProject "CheckMarkView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC97CDAA1B953DFC00015230;
+			productRefGroup = FC97CDB41B953DFC00015230 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC97CDB21B953DFC00015230 /* CheckMarkView */,
+				FC97CDCB1B953DFC00015230 /* CheckMarkViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC97CDB11B953DFC00015230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC97CDC21B953DFC00015230 /* Main.storyboard in Resources */,
+				FC97CDC71B953DFC00015230 /* LaunchScreen.xib in Resources */,
+				FC97CDC41B953DFC00015230 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC97CDCA1B953DFC00015230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC97CDAF1B953DFC00015230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC97CDBF1B953DFC00015230 /* ViewController.m in Sources */,
+				FC97CDBC1B953DFC00015230 /* AppDelegate.m in Sources */,
+				FC97CDDE1B953E2100015230 /* CheckMarkView.m in Sources */,
+				FC97CDB91B953DFC00015230 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC97CDC81B953DFC00015230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC97CDD31B953DFC00015230 /* CheckMarkViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC97CDCE1B953DFC00015230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC97CDB21B953DFC00015230 /* CheckMarkView */;
+			targetProxy = FC97CDCD1B953DFC00015230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC97CDC01B953DFC00015230 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC97CDC11B953DFC00015230 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC97CDC51B953DFC00015230 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC97CDC61B953DFC00015230 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC97CDD41B953DFC00015230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC97CDD51B953DFC00015230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC97CDD71B953DFC00015230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckMarkView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC97CDD81B953DFC00015230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckMarkView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC97CDDA1B953DFC00015230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CheckMarkViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMarkView.app/CheckMarkView";
+			};
+			name = Debug;
+		};
+		FC97CDDB1B953DFC00015230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CheckMarkViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMarkView.app/CheckMarkView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC97CDAE1B953DFC00015230 /* Build configuration list for PBXProject "CheckMarkView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC97CDD41B953DFC00015230 /* Debug */,
+				FC97CDD51B953DFC00015230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC97CDD61B953DFC00015230 /* Build configuration list for PBXNativeTarget "CheckMarkView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC97CDD71B953DFC00015230 /* Debug */,
+				FC97CDD81B953DFC00015230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC97CDD91B953DFC00015230 /* Build configuration list for PBXNativeTarget "CheckMarkViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC97CDDA1B953DFC00015230 /* Debug */,
+				FC97CDDB1B953DFC00015230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC97CDAB1B953DFC00015230 /* Project object */;
+}
